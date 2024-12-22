@@ -2,16 +2,104 @@
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
+
+/* Atur body dan html agar memenuhi seluruh viewport */
+html, body {
   margin: 0;
-  background: rgba(219, 235, 253, 1);
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Kontainer utama agar fleksibel */
+main {
+  flex: 1; /* Isi area utama */
+}
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.news-item h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0d47a1;
+  padding: 10px;
+  margin: 0;
+}
+
+.news-item p {
+  font-size: 14px;
+  color: #424242;
+  padding: 0 10px 10px;
+  margin: 0;
+}
+
+/* Gambar ketiga memenuhi seluruh baris */
+.news-item:nth-child(3) {
+  grid-column: span 2;
+}
+.footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; /* Pastikan berada di bagian bawah */
+}
+
+.footer-info h3, .footer-social h3 {
+  font-size: 12px; /* Ukuran font lebih kecil */
+}
+
+.footer-info p, .footer-social p {
+  font-size: 12px; /* Ukuran font lebih kecil */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px; /* Ukuran font lebih kecil */
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  font-size: 12px; /* Ukuran font lebih kecil */
+}
 /* Container */
 .container {
-  padding: 20px;
+  padding: 5px;
 }
 
 /* Header */
