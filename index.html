@@ -3,66 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet" />
-    <link href="./styles/main.css" rel="stylesheet" />
-    <title>Peraturan Daerah</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jost:400,500,700&display=swap" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
+    <title>Beranda</title>
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <nav class="navbar">
-                <span class="nav-item">Tentang Kami</span>
-                <a href="cctv.html" class="nav-item" target="_blank">CCTV</a>
-                <span class="nav-item">Regulasi</span>
-                <span class="nav-item">Media</span>
-                <a href="https://elhkpn.kpk.go.id/portal/user/pengumuman_lhkpn/YW1odFRqRk9hRk4zUm1abmREUnZORkp4ZURCRE5YRmpRazF1WVhWRGRWZHhLMnhFUW1kSlpDczJkVXQ1TURReFpIaFhTMXAwVFRkRWIwRnVWWFpRU0E9PQ==" 
-                   class="nav-item" target="_blank">LKHPN</a>
-                <a href="pengaduan.html" class="nav-item" target="_blank">Pengaduan</a>
-                <div class="search">
-                    <span class="search-text">Cari</span>
-                </div>
-            </nav>
-        </header>
-
-        <!-- Main Content -->
-        <main>
-            <h1 class="title">Peraturan Daerah</h1>
-            <p class="breadcrumb">Home > REGULASI > PERATURAN DAERAH</p>
-            <div class="regulations">
-                <p>1. Peraturan Daerah Kota Bekasi Nomor 2 Tahun 2024 tentang Usaha Depot Air Minum</p>
-                <p>2. Peraturan Daerah Kota Bekasi Nomor 3 Tahun 2024 tentang Penataan dan Pengembangan Ekonomi Kreatif</p>
-                <p>3. Peraturan Daerah Kota Bekasi Nomor 4 Tahun 2024 tentang Pengelolaan Badan Usaha Milik Daerah</p>
-               <p>4. Peraturan Daerah Kota Bekasi Nomor 5 Tahun 2024 tentang Pengarusutamaan Gender</p>
-                <p>5. Peraturan Daerah Kota Bekasi Nomor 6 Tahun 2024 tentang Perubahan Kelima Atas Peraturan Daerah Nomor 07 Tahun 2016 tentang Pembentukan dan Susunan Perangkat Daerah Kota Bekasi</p>
-                <p>6. Peraturan Daerah Kota Bekasi Nomor 7 Tahun 2024 tentang Rencana Tata Ruang Wilayah Kota Bekasi Tahun 2024-2044</p>
-                <p>7. Peraturan Daerah Kota Bekasi Nomor 8 Tahun 2024 tentang Penyertaan Modal Daerah Kepada Perseroan Terbatas Bank Pembangunan Daerah Jawa Barat dan Banten, Tbk</p>
-                <p>8. Peraturan Daerah Kota Bekasi Nomor 9 Tahun 2024 tentang Pertanggungjawaban Pelaksanaan APBD Tahun Anggaran 2023</p>
-                <p>9. Peraturan Daerah Kota Bekasi Nomor 10 Tahun 2024 tentang Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun 2024</p>
-                <p>10. Peraturan Daerah Kota Bekasi Nomor 1 Tahun 2024 tentang Pajak Daerah dan Retribusi Daerah</p>
-                <p>11. Peraturan Daerah Kota Bekasi Nomor 1 Tahun 2023 tentang Pembentukan Dana Cadangan Untuk Membiayai Penyelenggaraan Pemilihan Wali Kota dan Wakil Wali Kota Tahun 2024</p>
-                <p>12. Peraturan Daerah Kota Bekasi Nomor 2 Tahun 2023 tentang Penyelenggaraan Ketertiban Umum dan Ketentraman Masyarakat</p>
-                <p>13. Peraturan Daerah Kota Bekasi Nomor 3 Tahun 2023 tentang Perlindungan Anak</p>
-                <p>14. Peraturan Daerah Kota Bekasi Nomor 4 Tahun 2023 tentang Pemberdayaan dan Perlindungan Perempuan</p>
-                <p>15. Peraturan Daerah Kota Bekasi Nomor 5 Tahun 2023 tentang Pemajuan Kebudayaan Daerah</p>
+    <header class="header">
+        <nav class="navbar">
+            <img src="images/Logo.png" alt="Logo Kota Bekasi" class="navbar-logo">
+            <span class="nav-item">Tentang Kami</span>
+            <a href="https://bekasikota.go.id/cctv" class="nav-item" target="_blank">CCTV</a>
+            <a href="regulasi.html" class="nav-item">Regulasi</a>
+            <span class="nav-item">Media</span>
+            <a href="https://elhkpn.kpk.go.id/portal/user/pengumuman_lhkpn/YW1odFRqRk9hRk4zUm1abmREUnZORkp4ZURCRE5YRmpRazF1WVhWRGRWZHhLMnhFUW1kSlpDczJkVXQ1TURReFpIaFhTMXAwVFRkRWIwRnVWWFpRU0E9PQ==" 
+               class="nav-item" target="_blank">LKHPN</a>
+            <a href="pengaduan.html" class="nav-item" style="cursor:pointer;">Pengaduan</a>
+            <div class="search-box">
+                <input type="text" placeholder="Cari..." class="search-input" />
+                <button class="search-button">Cari</button>
             </div>
-        </main>
-    </div>
+        </nav>
+    </header>
 
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2>Layanan Pengaduan</h2>
-            <ul>
-                <li><strong>SP4N-LAPOR!</strong></li>
-                <li>Call Center: 1500-444</li>
-                <li>Layanan Gawat Darurat Kesehatan: 119</li>
-                <li>Layanan Pemadam Kebakaran: (021) 8895 7805</li>
-                <li>Badan Penanggulangan Bencana Daerah (BPBD): +62 812 8395 7877</li>
+    <main>
+        <section class="news">
+            <h1 class="title">Berita Terkini</h1>
+            <div class="news-container">
+              <article class="news-item">
+                <img src="images/Pic_1.jpg" alt="Berita 1">
+                <h2>PJ. WALIKOTA BEKASI KUNJUNGI WILAYAH MEDAN SATRIA</h2>
+                <p>Meninjau pembangunan dan memberikan bantuan.</p>
+              </article>
+              <article class="news-item">
+                <img src="images/Pic_2.jpg" alt="Berita 2">
+                <h2>PEMKOT BEKASI GELAR SOSIALISASI KESELAMATAN</h2>
+                <p>Sosialisasi keselamatan berlalu lintas bagi angkutan orang dan barang.</p>
+              </article>
+              <article class="news-item">
+                <img src="images/Pic_3.jpg" alt="Berita 3">
+                <h2>PJ. WALIKOTA BEKASI MONITORING PILKADA</h2>
+                <p>Bersama Forkopimda lakukan monitoring Pilkada serentak di wilayah.</p>
+              </article>
+            </div>
+          </section>
+    </main>
+
+    <main>
+        <!-- Konten utama -->
+    </main>
+    <footer class="footer">
+        <div class="container footer-flex" style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div class="footer-info" style="text-align: left;">
+                <h3>ALAMAT</h3>
+                <p>Jl. Jendral Ahmad Yani No. 1 Gd Perkantoran Lt Dasar, Bekasi</p>
+                <p>Email: <a href="mailto:info@bekasikota.go.id">info@bekasikota.go.id</a></p>
+                <p>Telp: (021) 88961767 | Fax: 88959980/88960250</p>
+                <p>Call Center: 1500-444</p>
+            </div>
+            <div class="footer-social" style="text-align: right;">
+                <h3>SOCIAL MEDIA</h3>
+                <p>Facebook: pemkotbekasi</p>
+                <p>X: @pemkotbekasi</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bekasi Kota. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
-    </div>
+    </footer>
 
     <script>
         function showModal() {
