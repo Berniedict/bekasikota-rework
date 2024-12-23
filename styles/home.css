@@ -136,6 +136,26 @@ html, body {
   padding: 0 10px;
 }
 
+.regulations {
+  margin: 20px auto;
+  padding: 0 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 1000px; /* Define the card's width */
+  overflow: hidden;
+  text-align: left;
+  padding: 15px;
+
+}
+
+.regulations p{
+  font-size: 15px;
+  color: #133e87;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 .card {
   background: white;
   border-radius: 10px;
